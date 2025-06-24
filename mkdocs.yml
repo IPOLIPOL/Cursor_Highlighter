@@ -1,0 +1,27 @@
+site_name: Cursor Highlighter
+site_description: A simple Python-based cursor highlighter
+site_author:  IPOLIPOL
+
+theme:
+  name: bootstrap386
+  # custom_dir: null  # Optional unless you customize templates
+
+nav:
+  - Home: index.md
+  - Reference: reference.md
+
+
+repo_url: https://github.com/IPOLIPOL/cursor-highlighter
+repo_name: GitHub
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: ["."]
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
