@@ -14,6 +14,7 @@ Useful for tutorials, screen sharing, or live presentations.
 
 ```bash
 pip install pyautogui keyboard
+```
 
 ## Features
 
@@ -26,4 +27,5 @@ pip install pyautogui keyboard
 
 ```bash
 python cursor_highlighter.py
+```
 
